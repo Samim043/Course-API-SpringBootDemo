@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class CourseApiApp {
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class CourseApiApp {
+
+    public static void main(String[] args) {
+        SpringApplication.run(CourseApiApp.class, args);
+
+    }
 }
